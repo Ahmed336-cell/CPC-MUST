@@ -19,6 +19,7 @@ int main()
 		int m; 
 		cin >> m;
 		// 0 1 5 6 -> O(1)
+		// make sum for all elements  1 4 1 -> 0 1 5 6 
 		v.push_back(v[v.size() - 1] + m);
 
 	}
