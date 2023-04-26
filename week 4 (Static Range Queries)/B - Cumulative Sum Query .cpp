@@ -1,6 +1,8 @@
 // ConsoleApplication6.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+// نجمع الارقام من الرينج الي هيدهولنا زي مثلا 
+//1 4 1 -> 1 1  -> 4 
+// 1 4 1 -->  1 2 -> 4 +1 =5
 #include <iostream>
 #include <vector>
 #define MA ios_base::sync_with_stdio(false) , ios::sync_with_stdio(false) , cin.tie(0), cout.tie(0);
