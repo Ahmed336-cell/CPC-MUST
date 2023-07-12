@@ -8,10 +8,11 @@ using namespace std;
 int main()
 {
 	maher;
-	int n, m , max=0,last=0; 
+	int n, m ,last=0;
+	double max = 0;
 	cin >> n >> m;
 	for (int i = 1; i <=n; i++) {
-		int t;
+		double t;
 		cin >> t;
 		if (ceil(t / m) >= max) {
 			last = i;
